@@ -1,4 +1,4 @@
-# SHARP — Strategic Hospital Analytics for Readmission Prediction
+# PRISM - Payment Ratio Insights for Socioeconomic Mapping
 
 > Identify $15B+ in preventable readmission costs using ONLY CMS IPPS (2011–2016)
 
@@ -8,7 +8,7 @@
 ![DuckDB](https://img.shields.io/badge/DuckDB-Accelerated%20Aggregations-purple)
 ![CMS](https://img.shields.io/badge/CMS%20IPPS-2011--2016-black)
 
-SHARP is a self‑contained analytics and decision support system that quantifies and predicts readmission risk using payment patterns and discharge volumes from the CMS IPPS dataset. It surfaces high‑ROI intervention opportunities without any external socioeconomic datasets.
+Prism is a self‑contained analytics and decision support system that quantifies and predicts readmission risk using payment patterns and discharge volumes from the CMS IPPS dataset. It surfaces high‑ROI intervention opportunities without any external socioeconomic datasets.
 
 - Core hypothesis: communities with lower `payment_ratio = Average_Total_Payments / Average_Covered_Charges` exhibit higher financial stress → elevated readmissions.
 - Outcome: identify stressed geographies, quantify savings if aligned to normal areas, and predict next‑year surges to target interventions.
@@ -233,7 +233,7 @@ This project analyzes publicly available CMS IPPS data. Ensure compliance with C
 
 ## Purpose & Impact
 
-Why SHARP exists:
+Why Prism exists:
 
 - Reduce preventable readmissions by directing scarce resources to where they matter most.
 - Equip payers, provider networks, and public health teams with transparent, data‑driven signals rooted in CMS claims alone.
